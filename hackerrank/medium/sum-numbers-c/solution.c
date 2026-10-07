@@ -5,11 +5,15 @@
 
 int main()
 {
-	int n1,n2;
-    float f1,f2;
-    scanf("%d %d", &n1, &n2);
-    scanf("%f %f", &f1, &f2);
-    printf("%d %d\n", n1 + n2, n1 - n2);
-    printf("%.1f %.1f\n", f1 + f2, f1 - f2);
+    int n1,n2,d1;
+	float f1,f2,s1,s2,d2;
+    scanf("%d%d",&n1,&n2);
+    scanf("%f%f",&f1,&f2);
+    s1=n1+n2;
+    d1=n1-n2;
+    s2=f1+f2;
+    d2=f1-f2;
+    printf("%d %d\n",(int)s1,d1);
+    printf("%.1f %.1f",s2,d2);
     return 0;
 }
